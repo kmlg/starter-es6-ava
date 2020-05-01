@@ -13,8 +13,13 @@ Minimal ES6 starter kit with zero configuration.
 ## Quickstart
 
 ```bash
-$ npm install
-$ npm run lint
-$ npm run fix
-$ npm test
+git clone https://github.com/kmlg/starter-es6-ava.git
+cd starter-es6-ava
+
+npm install
+
+npm run lint
+npm run fix
+
+npm test
 ```
