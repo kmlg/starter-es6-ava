@@ -1,0 +1,31 @@
+{
+  "name": "starter-es6",
+  "version": "0.0.1",
+  "description": "A starter ES6 development kit with ava and xo",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xo",
+    "fix": "xo --fix",
+    "test": "npm run lint && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:InsightSpire/starter-es6-xo-ava.git"
+  },
+  "keywords": [
+    "es6",
+    "ava",
+    "xo"
+  ],
+  "author": "Kiril Mitev <kiril@kmitev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InsightSpire/starter-es6-ava/issues"
+  },
+  "homepage": "https://github.com/InsightSpire/starter-es6-ava#readme",
+  "devDependencies": {
+    "ava": "^3.8.1",
+    "nyc": "^15.0.1",
+    "xo": "^0.30.0"
+  }
+}
